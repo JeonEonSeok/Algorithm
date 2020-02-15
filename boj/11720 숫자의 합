@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+
+	int a; cin >> a;
+	int sum = 0;
+	while (a--)
+	{
+		char b; cin >> b;
+		sum += b - '0';
+	}
+	cout << sum;
+
+	return 0;
+}
